@@ -36,9 +36,9 @@ return [
     ],
 
     'google' => [
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => ""
+        'client_id'     => '515016729454-n0k2p8j5qet1t0snn1hn5spqtivebmdd.apps.googleusercontent.com',
+        'client_secret' => 'AOek4N7nBsvlAEpjpPoDjzml',
+        'redirect'      => "https://quantar.io/callback/google"
     ],
 
 ];
