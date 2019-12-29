@@ -1,5 +1,9 @@
 function barsClicked() {
-	console.log("bbb");
+	console.log("bbb", $(window).width() );
+	if ( $(window).width() > 42 * 16) {
+		return false;
+	}
+	console.log("aaaa");
 	var left = $(".s-sidebar__nav").css('left');
 	console.log(left);
 	if (left == "0px") {
@@ -13,6 +17,9 @@ function barsClicked() {
 }
 
 $(document).mouseup( function(e) {
+	if ( $(window).width() > 42 * 16) {
+		return false;
+	}
     var container = $(".s-sidebar__nav");
 
     // if the target of the click isn't the container nor a descendant of the container

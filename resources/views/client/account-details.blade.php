@@ -7,7 +7,7 @@
 @section("content")
     <div class="content-container">
         <h4 class="title d-block">Account details</h4>
-        <div class="col-sm-12 col-md-4 row container-white mt-4">
+        <div class="container-white row col-sm-12 col-md-6 mt-4">
             <div class="col-sm-12 col-md-5">
                 <h4 style="color: #ccc">User</h4>
             </div>
@@ -15,8 +15,8 @@
                 <h4>{{auth()->user()->name}}</h4>
             </div>
         </div>
-        <div class="col-md-12 row mt-4 pl-0">
-            <div class="container-white row col-sm-12 col-md-4">
+        <div class="col-md-12 row mt-4 px-0">
+            <div class="container-white row col-sm-12 col-md-6">
                 <div class="col-sm-12 col-md-5">
                     <h4 style="color: #ccc">Email</h4>
                 </div>
@@ -31,8 +31,8 @@
                 <a>Change</a>
             </div> -->
         </div>
-        <div class="col-md-12 row mt-4 pl-0">
-            <div class="container-white row col-sm-12 col-md-4">
+        <div class="col-md-12 row mt-4 px-0">
+            <div class="container-white row col-sm-12 col-md-6">
                 <div class="col-sm-12 col-md-5">
                     <h4 style="color: #ccc">Access code</h4>
                 </div>
