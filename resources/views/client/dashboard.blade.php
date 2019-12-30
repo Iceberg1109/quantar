@@ -2,6 +2,7 @@
 
 @section("componentcss")
 <link href="{{asset('front/css/client/dashboard.css')}}" rel="stylesheet">
+<link href="{{asset('front/css/client/temp.css')}}" rel="stylesheet">
 @stop
 
 @section("content")
@@ -27,7 +28,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 p-4 pl-0">
-                <div class="container-white" style="padding-right: 80px">
+                <div class="container-white padding-container" style="padding-right: 80px;">
                     <h4 class="d-inline-block py-4">Length of campaign</h4>
                     <img src="{{asset('front/img/i-clock.svg')}}" alt="" class="float-right pt-4">
                     <p>Enter the length of your campaign in months</p>
@@ -44,7 +45,7 @@
                     <p style="margin-bottom: 36px!important;">Enter the start date of your campaign</p>
                     <div class="d-flex mb-1" style="margin-top: ">
                         <input type="number" id="campaign-day" class="input form-control mr-2" min="1" max="31" placeholder="DD" required>
-                        <input type="number" id="campaign-month" class="input form-control mr-2" min="1" max="31" placeholder="MM" required>
+                        <input type="number" id="campaign-month" class="input form-control mr-2" min="1" max="12" placeholder="MM" required>
                         <input type="number" id="campaign-year" class="input form-control" min="2000" max="2099" placeholder="YYYY" required>
                     </div>
                 </div>

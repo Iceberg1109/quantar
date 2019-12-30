@@ -93,7 +93,8 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-            margin-left : -50px;
+            margin-left : -5%;
+            margin-right : 5%;
             z-index : 1;">
             <!-- <img src="{{asset('front/img/woman.svg')}}"> -->
         </div>
@@ -101,7 +102,8 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-            margin-right : -75px;
+            margin-right : -4%;
+            margin-left : 4%;
             z-index : 1;">
             <!-- <img src="{{asset('front/img/man.png')}}" class="man"> -->
         </div>
